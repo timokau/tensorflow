@@ -411,6 +411,7 @@ cc_library(
         "//third_party/py/numpy:headers",
         "//third_party/python_runtime:headers",
     ],
+    alwayslink = 1,
 )
 
 cc_library(

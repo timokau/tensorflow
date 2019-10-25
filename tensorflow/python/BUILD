@@ -375,6 +375,7 @@ cc_library(
         "//tensorflow/core:lib",
         "//tensorflow/core:protos_all_cc",
     ],
+    alwayslink = 1,
 )
 
 cc_library(

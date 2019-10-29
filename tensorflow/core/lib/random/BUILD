@@ -50,6 +50,7 @@ cc_library(
         "//tensorflow/core/platform:types",
         "//third_party/eigen3",
     ],
+    alwayslink = 1,
 )
 
 filegroup(
